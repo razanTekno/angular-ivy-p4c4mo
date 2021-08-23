@@ -1,4 +1,15 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="container" #divcontainer (window:resize)="onResize($event)">
+  <app-header></app-header>
+  <div class="row main-content">
+    <div class="col-md-6">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-md-6">
+      <app-side-menu-parent></app-side-menu-parent>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>
+
+
+

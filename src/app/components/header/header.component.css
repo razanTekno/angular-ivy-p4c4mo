@@ -1,0 +1,118 @@
+
+.navbar .navbar-brand {
+  color: #f3e4cf;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+.navbar .brand-bold {
+  font-weight: 600;
+}
+.navbar .search-bar,
+.navbar .btn-search, .navbar .btn-upload {
+  background-color: #f3e4cf;
+  border-radius: 0;
+  border-color: #f3e4cf;
+  color: #953e46;
+}
+.navbar .profile .row, .navbar .profile .image-container, .navbar .profile .profile-information{
+  padding: 0;
+  margin: 0;
+}
+.main-font-color {
+  color: #953e46;
+}
+.navbar .profile img{
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.navbar .profile .profile-information-parent .badge{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+.navbar .profile .profile-name{
+  font-size: 14px;
+}
+.navbar .profile .profile-profession{
+  font-size: 12px;
+}
+.navbar .profile .profile-name, .navbar .profile .profile-profession{
+  color: #f3e4cf;
+}
+.dropdown-menu{
+  margin-top: 0;
+}
+.navbar form{
+  margin: auto 0 auto 0;
+  width: calc(35vw - 50px);
+}
+
+
+.navbar .navbar-brand.text span{
+color: #f3e4cf;
+}
+.navbar .navbar-brand.text,.navbar .menu-website{
+  display: block;
+}
+.navbar .navbar-brand.logo,.navbar .menu-mobile{
+  display: none;
+}
+@media only screen and (max-width: 700px) {
+  .navbar .navbar-brand.logo,.navbar .menu-mobile,.navbar .navbar-brand .logo{
+    display: block;
+  }
+  .navbar .navbar-brand.text,.navbar .menu-website,  .navbar .navbar-brand{
+    display: none;
+  }
+  .navbar form{
+    width: calc(75vw - 50px);
+  }
+}
+
+.navbar .menu-mobile .container-menu{
+  position:relative;
+}
+.navbar .menu-mobile .container-menu .badge{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  border-radius: 100%;
+}
+.breadcrumbNav{
+  border-top: 1px solid #f3e4cf;
+  border-bottom: 1px solid #f3e4cf;
+  margin-bottom: 20px;
+}
+.breadcrumbNav .breadcrumb{
+  background: #953e46;
+  color: #f3e4cf;
+  margin-bottom: 0;
+}
+.breadcrumbNav .breadcrumb li{
+  color: #f3e4cf;
+}
+.form-inline input{
+  border-radius: 0;
+  background: #f3e4cf;
+}
+.form-inline button{
+  background: #f3e4cf;
+  border-color: #f3e4cf;
+  border-radius: 0;
+  color: #953e46;
+}
+
+@media only screen and (max-width: 500px) {
+  .image-container .right-text{
+    top:10px;
+  }
+  .image-container .image-text-upload-your-own{
+    font-size:12px;
+  }
+  .breadcrumbNav .breadcrumb{
+
+    font-size: 12px;
+  }
+}
