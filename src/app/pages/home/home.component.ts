@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { VideosService } from 'src/app/services/videos/videos.service';
-import { PeopleService } from 'src/app/services/people/people.service';
+import { VideosService } from '../../services/videos/videos.service';
+import { PeopleService } from '../../services/people/people.service';
 import { forkJoin, Subscription } from 'rxjs';
 import { take, map, tap, switchMap, catchError, concatMap, finalize, timeout, retryWhen, delayWhen, mergeMap } from 'rxjs/operators';
 
